@@ -1,0 +1,35 @@
+.rounded-border-service{
+    border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #ffffff;
+    // max-width: 23%;
+    // min-width: 23%;
+    // width: 25%;
+}
+
+.rounded-border-noshadow{
+    border-radius: 20px;
+    background-color: #E4F4FE;
+}
+
+.carouselcontainer{
+    background-color: #00000010;
+}
+
+.carouselimg{
+    img{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) { 
+    .aboutus{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .aboutusimage{
+        width: 100%;
+    }
+ }

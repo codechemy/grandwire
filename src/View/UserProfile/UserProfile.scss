@@ -1,0 +1,126 @@
+.app_background {
+  background-color: #f1f1f1;
+  height: auto;
+  margin-top: -2rem;
+  padding: 5rem;
+  .profile_container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    background: #fff;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 0.5rem !important;
+    .profile_icon_container {
+      position: relative;
+      display: block;
+      margin: 0 auto;
+
+      .edit_icon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        bottom: 9px;
+        right: -3px;
+      }
+    }
+    .heading_container {
+      margin: 10px auto;
+      h6 {
+        text-align: center;
+      }
+      .txt {
+        font-size: 13px;
+      }
+    }
+
+    .bar_container {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 2rem;
+      background: #dee2e6;
+
+      margin-top: 10px;
+      .tab_border {
+        height: 100%;
+        cursor: pointer;
+        .tab_container {
+          margin-top: 7px;
+          display: flex;
+          gap: 8px;
+          color: #212529;
+          font-size: 12px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+.form-control {
+  background-color: #e6e6e6 !important;
+  padding: 14px !important;
+  margin-bottom: 39px !important;
+}
+.label {
+  margin-bottom: 10px !important;
+  font-weight: bold;
+  margin-top: 32px !important;
+}
+.label1 {
+  margin-bottom: 10px !important;
+  font-weight: bold;
+}
+.word {
+  font-weight: 200;
+  margin-top: 45px;
+  font-size: 13px;
+}
+
+.tab1 {
+  padding: 2rem;
+}
+
+.form-label {
+  font-weight: 500;
+}
+
+.text-area {
+  height: 6rem;
+}
+.margin-top-form {
+  position: absolute;
+  bottom: -4rem;
+}
+@media (max-width: 575.98px) {
+  .app_background {
+    padding: 3rem 1rem;
+    .profile_container {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .app_background {
+    padding: 3rem 1rem;
+    .profile_container {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .app_background {
+    padding: 3rem 1rem;
+    .profile_container {
+      width: 100%;
+    }
+  }
+}

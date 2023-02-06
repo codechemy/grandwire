@@ -1,0 +1,28 @@
+.rounded-border {
+  border-radius: 20px !important;
+  overflow: hidden;
+}
+
+.card-header {
+  background-image: url("../../assets/img/Placeholder1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+}
+
+.card-header {
+  section {
+    position: absolute !important;
+    bottom: 134px;
+  }
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px !important;
+    color: #007ad9;
+}
+
+.slick-next, .slick-prev {
+    width: 36px !important;
+}

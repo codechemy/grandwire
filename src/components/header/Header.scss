@@ -1,0 +1,18 @@
+.main-header {
+  box-shadow: rgba(212, 212, 212, 0.45) 0px 25px 20px -20px;
+  .header-logo {
+    width: 80px;
+    height: auto;
+  }
+  .link-text {
+    font-size: 14px;
+  }
+  .-mt-1 {
+    margin-top: -4px;
+  }
+  .header-profile {
+    width: 40px;
+    height: auto;
+    border-radius: 12px;
+  }
+}

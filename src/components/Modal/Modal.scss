@@ -1,0 +1,29 @@
+.headers {
+    height: 75px;
+    background-image: linear-gradient(#f1f0f8, #f1f0fc);
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .modal-footer {
+    justify-content: center !important;
+  }
+  .w-70 {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+  }
+  .btn-clr {
+    background-color: #0067A7 !important;
+  }
+  .pd-top {
+    padding-top: 50px;
+  }
+  .img-wd {
+    width: 60px;
+  }
+  .btn-pd {
+    padding-bottom: 50px;
+  }
+  
